@@ -1,0 +1,43 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Magnifying Glass
+qgisMinimumVersion=2.0
+description= Maps with a Magnifying Glass Tool "Concept" for Qgis.
+about= Tool for observing different base maps with a magnifying glass.
+version=0.0
+author=Francisco Raga
+email=franka1986@gmail.com
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+changelog=    
+	** General **
+	0.0:
+		- Start of plugin.
+ 
+# tags are comma separated with spaces allowed
+tags=Magnifying,Glass,Canvas,Slippy,Maps,Basemap,compare
+
+homepage=http://hub.qgis.org/projects/magnifyingglass
+tracker=http://hub.qgis.org/projects/magnifyingglass/issues
+repository=https://github.com/All4Gis/MagnifyingGlass
+icon=images/icon.png
+
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
