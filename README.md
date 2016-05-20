@@ -13,6 +13,11 @@ To activate the magnifier you simply have to press "left-click" and hold it down
 You can also leave a magnifying glass fixed with a simple "left-click" and move it over the map with the arrow keys of your keyboard to remove it, you have to press "right-click".
 Finally, through the combos above, you can choose the base maps to show both in the map and in the magnifying glass.
 
+  - Mouse buttons (drag): pan
+  - Left, right, up, down key: pan
+  - Left mouse button (hold): magnifier zoom
+  - Mouse wheel, plus and minus keys: zoom in/out
+
 ## And… What can it be useful for?
 
 I don´t Know,but It´s so cool ;)
