@@ -1,11 +1,12 @@
 # Magnifying Glass
 Maps with a Magnifying Glass Tool for Qgis.
 
-This plugin provides the ìmagnifying glassî tool to compare maps from different providers. The idea is quite simple, but if you donít want to dig into the code, here is the trick.
-Two SlippyMaps are created, the first one serves as an on-top map and the second is rendered below the first and it is the one that is used as ìmagnifying glassî clipped to the shape of a circle. Simple, isnít it? Of course, you can still move the maps by dragging the mouse and you can change the maps.
+This plugin provides the ‚Äúmagnifying glass‚Äù tool to compare maps from different providers. The idea is quite simple, but if you don‚Äôt want to dig into the code, here is the trick.
+Two SlippyMaps are created, the first one serves as an on-top map and the second is rendered below the first and it is the one that is used as ‚Äúmagnifying glass‚Äù clipped to the shape of a circle. Simple, isn‚Äôt it? Of course, you can still move the maps by dragging the mouse and you can change the maps.
  
 ![](images/Screenshot.png?raw=true)
 
+<<<<<<< HEAD
 ## How It Works
 
 To activate the magnifier you simply have to press "left-click" and hold it down while moving around the map.
@@ -13,8 +14,11 @@ You can also leave a magnifying glass fixed with a simple "left-click" and move 
 Finally, through the combos above, you can choose the base maps to show both in the map and in the magnifying glass.
 
 ## AndÖ What can it be useful for?
+=======
+## And‚Ä¶ What can it be useful for?
+>>>>>>> origin/master
 
-I don¥t Know,but It¥s so cool ;)
+I don¬¥t Know,but It¬¥s so cool ;)
 
 ## Donations
 Want to buy me a beer (or gadget)? Please use Paypal button on the project page, [Paypal.me](https://www.paypal.me/all4gis), or contact me directly.
