@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui.resources\About.ui'
 #
-# Created: Thu May 19 16:23:18 2016
+# Created: Fri May 20 11:59:17 2016
 #      by: PyQt4 UI code generator 4.11.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -68,6 +68,12 @@ class Ui_About(object):
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">This plugin provides the “</span><span style=\" font-size:8pt; font-weight:600;\">magnifying glass</span><span style=\" font-size:8pt;\">” tool to compare maps from different providers. The idea is quite simple, but if you don’t want to dig into the code, here is the trick.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><br /></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">Two </span><span style=\" font-size:8pt; font-weight:600;\">SlippyMaps</span><span style=\" font-size:8pt;\"> are created, the first one serves as an on-top map and the second is rendered below the first and it is the one that is used as “</span><span style=\" font-size:8pt; font-weight:600;\">magnifying glass</span><span style=\" font-size:8pt;\">” clipped to the shape of a circle. Simple, isn’t it? Of course, you can still move the maps by dragging the mouse and you can change the maps.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt; font-weight:600;\">How It Works</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">To activate the magnifier you simply have to press &quot;</span><span style=\" font-size:8pt; font-weight:600;\">left-click</span><span style=\" font-size:8pt;\">&quot; and </span><span style=\" font-size:8pt; font-weight:600;\">hold</span><span style=\" font-size:8pt;\"> it down while moving around the map.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">You can also leave a magnifying glass fixed with a simple &quot;</span><span style=\" font-size:8pt; font-weight:600;\">left-click</span><span style=\" font-size:8pt;\">&quot; and move it over the map with the arrow keys of your keyboard to remove it, you have to press &quot;</span><span style=\" font-size:8pt; font-weight:600;\">right-click</span><span style=\" font-size:8pt;\">&quot;.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">Finally, through the combos above, you can choose the base maps to show both in the map and in the magnifying glass.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><br /></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/imgMagnifier/images/Screenshot.png\" width=\"400\" height=\"700\" /></p></body></html>", None))
         self.pushButton_2.setText(_translate("About", "Show Video example", None))

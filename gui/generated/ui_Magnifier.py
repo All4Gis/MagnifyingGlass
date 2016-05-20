@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui.resources\Ui_Magnifier.ui'
 #
-# Created: Thu May 19 16:23:17 2016
+# Created: Fri May 20 11:59:17 2016
 #      by: PyQt4 UI code generator 4.11.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -26,8 +26,8 @@ except AttributeError:
 class Ui_MagnifierDock(object):
     def setupUi(self, MagnifierDock):
         MagnifierDock.setObjectName(_fromUtf8("MagnifierDock"))
-        MagnifierDock.resize(300, 300)
-        MagnifierDock.setMinimumSize(QtCore.QSize(300, 300))
+        MagnifierDock.resize(325, 300)
+        MagnifierDock.setMinimumSize(QtCore.QSize(325, 300))
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap(_fromUtf8(":/imgMagnifier/images/icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MagnifierDock.setWindowIcon(icon)
@@ -35,6 +35,9 @@ class Ui_MagnifierDock(object):
         self.dockWidgetContents.setObjectName(_fromUtf8("dockWidgetContents"))
         self.verticalLayout = QtGui.QVBoxLayout(self.dockWidgetContents)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
+        self.formLayout = QtGui.QFormLayout()
+        self.formLayout.setFieldGrowthPolicy(QtGui.QFormLayout.AllNonFixedFieldsGrow)
+        self.formLayout.setObjectName(_fromUtf8("formLayout"))
         self.infoButton = QtGui.QPushButton(self.dockWidgetContents)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Maximum, QtGui.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
@@ -51,7 +54,16 @@ class Ui_MagnifierDock(object):
         self.infoButton.setIcon(icon1)
         self.infoButton.setFlat(False)
         self.infoButton.setObjectName(_fromUtf8("infoButton"))
-        self.verticalLayout.addWidget(self.infoButton)
+        self.formLayout.setWidget(0, QtGui.QFormLayout.LabelRole, self.infoButton)
+        self.label_2 = QtGui.QLabel(self.dockWidgetContents)
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setItalic(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName(_fromUtf8("label_2"))
+        self.formLayout.setWidget(0, QtGui.QFormLayout.FieldRole, self.label_2)
+        self.verticalLayout.addLayout(self.formLayout)
         self.horizontalLayout_2 = QtGui.QHBoxLayout()
         self.horizontalLayout_2.setObjectName(_fromUtf8("horizontalLayout_2"))
         self.groupBox = QtGui.QGroupBox(self.dockWidgetContents)
@@ -130,7 +142,8 @@ class Ui_MagnifierDock(object):
 
     def retranslateUi(self, MagnifierDock):
         MagnifierDock.setWindowTitle(_translate("MagnifierDock", "Magnifying Glass", None))
-        self.infoButton.setToolTip(_translate("MagnifierDock", "Info", None))
+        self.infoButton.setToolTip(_translate("MagnifierDock", "About", None))
+        self.label_2.setText(_translate("MagnifierDock", "<-- Press this button for showing the instructions", None))
         self.groupBox.setTitle(_translate("MagnifierDock", "Normal Map", None))
         self.groupBox_2.setTitle(_translate("MagnifierDock", "Glass Map", None))
         self.check_sync.setText(_translate("MagnifierDock", "Sync Canvas Extend", None))

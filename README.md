@@ -6,6 +6,12 @@ Two SlippyMaps are created, the first one serves as an on-top map and the second
  
 ![](images/Screenshot.png?raw=true)
 
+## How It Works
+
+To activate the magnifier you simply have to press "left-click" and hold it down while moving around the map.
+You can also leave a magnifying glass fixed with a simple "left-click" and move it over the map with the arrow keys of your keyboard to remove it, you have to press "right-click".
+Finally, through the combos above, you can choose the base maps to show both in the map and in the magnifying glass.
+
 ## And… What can it be useful for?
 
 I don´t Know,but It´s so cool ;)
@@ -19,4 +25,4 @@ Want to buy me a beer (or gadget)? Please use Paypal button on the project page,
 If this plugin is useful for you, consider to donate to the author.
 
 
-[Â© All4gis 2016]
+[© All4gis 2016]

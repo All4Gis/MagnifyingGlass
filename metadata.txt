@@ -13,7 +13,7 @@ name=Magnifying Glass
 qgisMinimumVersion=2.0
 description= Maps with a Magnifying Glass Tool "Concept" for Qgis.
 about= Tool for observing different base maps with a magnifying glass.
-version=0.0
+version=0.1
 author=Francisco Raga
 email=franka1986@gmail.com
 
@@ -24,6 +24,8 @@ email=franka1986@gmail.com
 # Uncomment the following line and add your changelog entries:
 changelog=    
 	** General **
+	0.1:
+		- Update instructions for use it (About Button).
 	0.0:
 		- Start of plugin.
  
